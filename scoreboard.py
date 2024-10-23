@@ -50,7 +50,7 @@ class Scoreboard(Turtle):
                    )
         
         self.goto(0, -50)
-        self.write("GGs",
+        self.write(f"{self.player1}:{self.p1_score} - {self.player2}:{self.p2_score}",
                    align = "center",
                    font = ("Courier", 24, "normal")
                    )
